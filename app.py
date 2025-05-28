@@ -26,7 +26,9 @@ def recommend(title, cosine_sim=cosine_sim):
     return movies['title'].iloc[movie_indices]
 
 # Streamlit UI
-st.title("🎬 Movie Recommender System")
+st.title("🧙🏻‍♂️ Cinesage")
+st.subheader("By Abinash Swain")
+st.markdown("**Your personal AI-powered movie buddy!**")
 movie_list = movies['title'].values
 selected_movie = st.selectbox("Pick a movie:", movie_list)
 
