@@ -27,8 +27,8 @@ def recommend(title, cosine_sim=cosine_sim):
 
 # Streamlit UI
 st.title("🧙🏻‍♂️ Cinesage")
-st.subheader("By Abinash Swain")
-st.markdown("**Your personal AI-powered movie buddy!**")
+st.subheader("Your personal AI-powered movie buddy!")
+st.markdown("By  ᴬᵇⁱⁿᵃˢʰ ˢʷᵃⁱⁿ")
 movie_list = movies['title'].values
 selected_movie = st.selectbox("Pick a movie:", movie_list)
 
